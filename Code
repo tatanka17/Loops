@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+int x;
+int y = 1;
+int z;
+int total = 0;
+
+    cout << "Wie viele Zahlen moechten Sie addieren? \n";
+    cin >> z;
+    cout << "Bitte geben Sie die Zahlen jetzt ein!\n";
+
+    while ( y <= z ) {
+        cin >> x;
+        total += x;
+        y++;
+    }
+    cout <<"Das Ergebnis lautet:\n" << total << "\n";
+/*
+    for (int b = 1; b<10;b++) {
+    cout << b << "\n";
+}
+*/
+}
+
+
